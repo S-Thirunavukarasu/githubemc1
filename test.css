@@ -1,1 +1,14 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav img{
+    height: 30px;
+}
