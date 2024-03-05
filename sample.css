@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 24px;
+    background-color: rgb(159, 206, 247);
+}
+h1{
+    font-family: League Spartan;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(2, 2, 50);
+}
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 36px;
+    color: black;
+}
+.text{
+    font-family: poppins;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.hero-text{
+    width: 50%;
+    padding: 30px 20px;
+}
+.image{
+    width: 50%;
+}
+img{
+    width: 100%;
+    border-bottom-left-radius:200px ;
+    border-bottom-right-radius: 20px;
+}
+.con{
+    font-size: 15px;
+    line-height: 14px;
+}
+.hi{
+    margin-top: 52px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#h1{
+    margin-top: 10px;
+}
+.but button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.but button:hover{
+    background-color: yellow;
+    color: black;
+}
+.pricing h2{
+    max-width: 40%;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.pricing p{
+    max-width: 40%;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 8px;
+}
+.boxes{
+    display: flex;
+    max-width: 1440px;
+}
+.box{
+    width: 30%;
+    border: 1px solid gray;
+    margin: 0 10px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: aliceblue;
+}
+.box h3{
+   text-align: center;
+}
+.box .amt{
+    color: blue;
+    line-height: 45px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.per{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(2, 57, 59);
+}
+.blt ul li{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.butt button{
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: aqua;
+    color: rgb(10, 0, 2);
+    margin-top: 10px;
+}
+.footer{
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+}
+
