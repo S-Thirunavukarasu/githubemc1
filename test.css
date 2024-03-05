@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: blue;
 }
 .nav{
     display: flex;
@@ -11,4 +12,30 @@
 }
 .nav img{
     height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
+ .nav .navtext{
+    margin-left: 10px;
+}
+.navtext h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+.navtext p{
+    font-size: 15px;
+    word-spacing: 4px;
+    letter-spacing: 6px
+}
+.left{
+    max-width: 1000px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.main h1{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
