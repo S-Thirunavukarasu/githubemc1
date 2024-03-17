@@ -18,7 +18,7 @@ for (list of lists) {
             e.preventDefault()
 
             leftbox.addEventListener("drop", function (e) {
-                leftbox.append(selected)
+                leftbox.append (selected)
             })
         })
     })
