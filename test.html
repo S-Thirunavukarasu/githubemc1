@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="test.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="left">
-        <div class="nav">
-            <img src="Screenshot_20240305_193830_Canva.jpg">
-            <div class="navtext">
-                <h2>WARDIERE INC</h2>
-                <p>REAL ESTATE</p>
-            </div>
-        </div>
-        <div class="main">
-            <h1>MODERN <br>HOME FOR <br>SALE</h1>
-        </div>
-        <div class="image">
-            <img src="/githubemc1/img">
-        </div>
-        <div class="about">
-            <h4>ABOUT US</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut minus possimus consectetur accusamus saepe et numquam enim libero nemo consequatur quisquam consequuntur laudantium nobis reprehenderit, cumque eligendi sunt quidem!</p>
-
-        </div>
-        <div class="loc">
-            <img src="#">
-            <p>Coimabtore,India</p>
-        </div>
-        <div class="email">
-            <img src="#">
-            <p>thiru@gmail.com</p>
+    <div class="menu-btn"><ion-icon name="menu-outline"></ion-icon></div>
+    
+    <div class="side-bar active">
+        <header>
+        <div class="close-btn"><ion-icon name="close-outline"></ion-icon></div>
+        <div class="image"><img src="sample"></div>
+        <h1>Thirunavukarasu S</h1>
+    </header>
+    <div class="content">
+        <div class="values">
+            <li>
+                <ul><ion-icon name="briefcase-outline" id="i1"></ion-icon>Dashboard</ul>
+                <ul><ion-icon name="paper-plane-outline" id="i2"></ion-icon>Products<ion-icon name="chevron-forward-outline" id="l1"></ion-icon>
+                    <div class="sub-menu" >
+                        <li >
+                            <ul>Fresh Juice</ul>
+                            <ul>Tea</ul>
+                            <ul>Cofee</ul>
+                            <ul>Snacks</ul>
+                        </li>
+                    </div>
+            </ul>
+                <ul><ion-icon name="settings-outline" id="i3"></ion-icon>Setting</ul>
+                <ul><ion-icon name="person-outline" id="i4"></ion-icon>User Details<ion-icon name="chevron-forward-outline" id="l2"></ion-icon>
+                    <div class="sub-menu1">
+                        <li>
+                            <ul>Login</ul>
+                            <ul>Logout</ul>
+                            
+                        </li>
+                    </div>
+                </ul>
+                <ul><ion-icon name="mail-outline" id="i5"></ion-icon>Contact Us</ul>
+            </li>
         </div>
     </div>
-</body>
+    </div>
 
+
+
+
+
+
+
+    <script src="sample.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
