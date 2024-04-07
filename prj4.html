@@ -5,45 +5,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="prj4.css">
 </head>
 
 <body>
+    <!-- header Degsin -->
     <header class="header">
         <a href="#" class="logo">Portfolio.</a>
-        <ion-icon name="menu-outline" id="menu"></ion-icon>
-        <div class="nav">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <ion-icon name="moon-outline" id="darkMode-icon"></ion-icon>
+        <ion-icon name="menu-outline" id="menu-icon"></ion-icon>
     </header>
 
-    <section class="home">
-        <div class="content">
-            <div class="content-text">
-                <h3>Hello,Everyone It's</h3>
-            <h1>Thirunavukarasu S</h1>
-            <h3>And I'm a <span>Front-End Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veniam quis cupiditate illo officia ipsa
-                expedita eveniet asperiores pariatur vero!</p>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Thirunavukarasu </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptate quibusdam velit dolorum
+                rerum error consequatur placeat maiores.</p>
             <div class="social-media">
-                <a href="#"><ion-icon name="logo-instagram" id="icon"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-github" id="icon"></ion-icon></a>
-                <ion-icon name="logo-linkedin" id="icon"></ion-icon>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
             </div>
-            <button id="but">Download CV</button>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h3>Web Degsigner</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <h3>Git and Github</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <ion-icon name="cloud-outline"></ion-icon>
+                    <h3>Cloud Deployment</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <ion-icon name="albums-outline"></ion-icon>
+                    <h3>Responsive Degsin</h3>
+                </div>
+                <div class="circle"></div>
             </div>
-            
-            <img src="Screenshot_20240305_193830_Canva.jpg">
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="img">
         </div>
     </section>
 
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I' m Here To Help Your Next Projects</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim iusto consequatur tempora inventore. Velit
+                corporis, dolorum odio illo quae consectetur, suscipit exercitationem nulla commodi autem vitae facilis.
+                Eius, est, magnam adipisci alias ullam vel reprehenderit laudantium nam nostrum odio sunt!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h3>Web Degsigner</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, harum? Id eligendi consequatur
+                    aliquam cupiditate atque dolorum, nobis architecto sunt ab nihil.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <ion-icon name="logo-github"></ion-icon>
+                <h3>Git Github</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, harum? Id eligendi consequatur
+                    aliquam cupiditate atque dolorum, nobis architecto sunt ab nihil.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <ion-icon name="cloud-outline"></ion-icon>
+                <h3>Cloud Deployment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, harum? Id eligendi consequatur
+                    aliquam cupiditate atque dolorum, nobis architecto sunt ab nihil.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moving Degsin -->
+    <div class="testmonial-container" id="projects">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="myimage.jpg" alt="">
+                        <h3>Vikash R</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus magnam quisquam nihil
+                            eveniet, soluta, obcaecati accusantium labore fuga consequatur id tempora hic dolores
+                            assumenda eos? Suscipit, dicta corrupti, harum quibusdam provident ipsam vel cupiditate a,
+                            quis veniam deserunt? Rem odit perspiciatis accusamus dolore, enim excepturi maiores
+                            praesentium, eligendi, accusantium quae perferendis consequatur adipisci a possimus totam
+                            iure fuga! Aperiam.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="myimage.jpg" alt="">
+                        <h3>Mohith S</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus magnam quisquam nihil
+                            eveniet, soluta, obcaecati accusantium labore fuga consequatur id tempora hic dolores
+                            assumenda eos? Suscipit, dicta corrupti, harum quibusdam provident ipsam vel cupiditate a,
+                            quis veniam deserunt? Rem odit perspiciatis accusamus dolore, enim excepturi maiores
+                            praesentium, eligendi, accusantium quae perferendis consequatur adipisci a possimus totam
+                            iure fuga! Aperiam.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="myimage.jpg" alt="">
+                        <h3>Nishanth S</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro natus magnam quisquam nihil
+                            eveniet, soluta, obcaecati accusantium labore fuga consequatur id tempora hic dolores
+                            assumenda eos? Suscipit, dicta corrupti, harum quibusdam provident ipsam vel cupiditate a,
+                            quis veniam deserunt? Rem odit perspiciatis accusamus dolore, enim excepturi maiores
+                            praesentium, eligendi, accusantium quae perferendis consequatur adipisci a possimus totam
+                            iure fuga! Aperiam.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact Degsin -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="1895c72d-c4d9-4b0d-95a0-119759515f1f">
+                <div class="input-feild">
+                    <input type="text" placeholder="Full Name" name="Full Name" id="name" class="item" autocomplete="off" required>
+                </div>
+                <div class="input-feild">
+                    <input type="email" placeholder="Email" name="Email"  id="email" class="item" autocomplete="off" required>
+                </div>
+                
+            </div>
+            <div class="input-box">
+                <div class="input-feild">
+                    <input type="number" placeholder="Contact" name="Phone"  id="phone" autocomplete="off" class="item" required>
+                   
+                </div>
+                <div class="input-feild">
+                    <input type="text" placeholder="Email Subject" name="Subject"  id="subject" autocomplete="off" class="item" required>
+                    
+                </div>
+       
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Feedback Please!!" name="Feedback"  class="item" autocomplete="off" required></textarea>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Degsin -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyrights &copy; 2024 by Thirunavukarasu | All Rights Reserver</p>
+        </div>
+        <div class="footer-icon">
+            <a href="#"><ion-icon name="arrow-up-outline"></ion-icon></a>
+        </div>
+    </footer>
+    
+
+    <!-- Scroll Animation -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Success Message -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Mail Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="prj4.js "></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
 </body>
 
 </html>
