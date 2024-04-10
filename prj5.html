@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prj5.css">
+</head>
+
+<body>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!!</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <div class="input-box">
+                <input type="hidden" name="access_key" value="1895c72d-c4d9-4b0d-95a0-119759515f1f">
+                <div class="input-feild">
+                    <input type="text" placeholder="Full Name" name="Full Name" id="name" class="item"
+                        autocomplete="off" onkeyup="validateName()" required>
+                        <span id="name-error"></span>
+                </div>
+                <div class="input-feild">
+                    <input type="email" placeholder="Email" name="Email" id="email" class="item" autocomplete="off"
+                    onkeyup="validateEmail()" required>
+                        <span id="email-error"></span>
+                </div>
+
+            </div>
+            <div class="input-box">
+                <div class="input-feild">
+                    <input type="number" placeholder="Contact" name="Phone" id="phone" autocomplete="off" class="item"
+                    onkeyup="validatePhone()" required>
+                        <span id="phone-error"></span>
+
+                </div>
+                <div class="input-feild">
+                    <input type="text" placeholder="Email Subject" name="Subject" id="subject" autocomplete="off"
+                        class="item" required onkeyup="validateSubject()">
+                        <span id="subject-error"></span>
+
+                </div>
+
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Feedback Please!!" name="Feedback" class="item"
+                autocomplete="off" required></textarea>
+                <span id="message-error"></span>
+            <button class="btn" type="submit" onclick="return validateForm()">Submit</button>
+            <span id="submit-error"></span>
+        </form>
+    </section>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="prj5.js"></script>
+</html>
